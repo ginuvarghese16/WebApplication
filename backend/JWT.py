@@ -219,7 +219,7 @@ def add_user():
         cursor.execute(sql, data)
         # commiting the modifications
         conn.commit() 
-        resp = jsonify('User added successfully!')
+        resp = jsonify(_id)
         resp.status_code = 200
         resp.headers.add('Access-Control-Allow-Origin', '*')
         return resp
