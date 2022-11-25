@@ -1,0 +1,337 @@
+.App {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bcd4f3;
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  list-style: none;
+  background-image: 
+  url(
+"https://www.nicepng.com/png/detail/215-2154046_transparent-geometric-background-png.png");
+}
+input {
+  display: block;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  
+  background-color: #f8f8f8;;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+/* button {
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 0.2rem;
+  background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+} */
+button:hover {
+  background-color: #c5c5c5;
+  background-position: 100% 0%;
+}
+.message {
+  font-size: 1.2em;
+  text-align: center;
+  color: rgb(9, 9, 9);
+}
+
+ h2 {
+  color: rgb(9, 9, 9);
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+ 
+}
+
+h1 {
+  color: rgb(9, 9, 9);
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+table, th, td {
+  position:relative;
+  border: 1px solid;
+  table-layout: fixed;
+  width: 95%;
+
+}
+
+
+th, td {
+ 
+  table-layout: fixed;
+  text-align: center;
+  border-bottom: 1px solid rgb(230, 227, 227);
+  border-right: 1px solid  rgb(230, 227, 227);
+  border-left: 1px solid  rgb(230, 227, 227);
+  border-top: 1px solid  rgb(230, 227, 227);
+  word-wrap: break-word;
+  margin: 0;
+}
+
+/* tr:nth-child(even) {background-color: #c6c6c671;}  */
+
+th {
+  background-color:  rgb(9, 9, 9);
+  color: #FFF;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+}  
+
+.button1{
+  width: 80px;
+  font-size: 13px;
+  background-color: blue;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+  color: white;
+  transition-duration: 0.4s;
+  
+}
+
+.button1:hover {
+  background-color: #6673e8; 
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #6c6eee);
+  color: white;
+}
+
+.button2 {
+  position:relative;
+  top: 160px;
+  right: 1110px;
+  left: 1;
+  width: 90px;
+  float: right;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+}
+
+.button2:hover {
+  background-color: #98a1f1;
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #6c6eee);
+  color: white;
+}
+
+.button3 {
+  position:relative;
+  top: 30px;
+  right: 190px;
+  left: 1;
+  width: 80px;
+  float: right;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+  transition-property: 0.6s;
+}
+.button3:hover {
+  background-color: #bdc1e8;
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #d5d6f7);
+  color: white;
+}
+
+.button4 {
+  position:relative;
+  top: 30px;
+  right: 190px;
+  left: 1;
+  width: 80px;
+  float: right;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+}
+
+.button4:hover {
+  background-color: #6673e8;
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #6c6eee);
+  color: white;
+}
+
+.button5 {
+  position:relative;
+  top: 30px;
+  right: 250px;
+  left: 1;
+  width: 80px;
+  float: right;
+  font-size: 16px;
+  background-color: red;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+}
+
+.button5:hover {
+  background-color: #eecbd0;
+  background-image: linear-gradient(to right, red 50%, red 50%, #e7c9cb);
+  color: white;
+}
+
+.button6 {
+  position:relative;
+  top: 30px;
+  right: 250px;
+  left: 1;
+  width: 80px;
+  
+  float: right;
+  font-size: 16px;
+  background-color: red;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+}
+
+.button6:hover {
+  background-color: #eecbd0;
+  background-image: linear-gradient(to right, red 50%, red 50%, #e7c9cb);
+  color: white;
+}
+
+
+.button7 {
+  position:relative;
+  top: 160px;
+  right: 1px;
+  left: 57px;
+  width: 90px;
+  float: right;
+  font-size: 16px;
+  background-color: blue;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 8px;
+}
+
+.button7:hover {
+  background-color: #6673e8;
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #6c6eee);
+  color: white;
+}
+
+.button8 {
+  background-color: rgb(63, 63, 238);
+  border: none;
+
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #1900ff 50%, #1900ff 50%, #6c6eee);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button9{
+  width: 80px;
+  font-size: 13px;
+  background-color: red;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.button9:hover {
+  background-color: #ef8091; 
+  background-image: linear-gradient(to right, red 50%, red 50%, #da6e74);
+  color: white;
+}
+
+.button10 {
+  background-color: rgba(45, 155, 133, 0.832);
+  border: none;
+
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 8px;
+  
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button10:hover {
+  background-color: #42a8be; 
+  background-image: linear-gradient(to right, #d165e0 50%, #d165e0 50%, rgba(45, 155, 133, 0.832));
+  color: white;
+}
+
+/* styling for the adddetails form */
+.form-box{
+  min-width: 100%;
+  height: 100vh;
+  border: #F55A00 5vw;
+  margin: 0vw;
+  padding: 5vw ;
+  position:relative; 
+}
+.form-box input, textarea{
+  display: block;
+  width: 75%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0 ;
+  border:0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.form-box label{
+  font-weight: bold;
+}
+
+.form-box textarea{
+  height: 15vh;
+}
