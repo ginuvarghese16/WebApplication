@@ -35,7 +35,11 @@ function App() {
       console.log(resJson)
       if (res.status === 200) {
         navigate("/Dashboard")
-      } else if (res.status === 401){
+      } else if (res.status === 500){
+        navigate("/App")
+        setMessage("Invalid Credentials!!");
+      }
+      else if (res.status === 401){
         navigate("/App")
         setMessage("Authentication Required");
       }
