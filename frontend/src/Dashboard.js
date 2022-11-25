@@ -82,16 +82,9 @@ const Dashboard = () => {
         navigate("/App");
       };
 
-    /*   const myStyle={
-        backgroundImage: `url(${background})` ,
-        height:'100vh',
-        
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    }; */
 
     return(
-        <div /* style={myStyle} */>
+        <div>
              
             <form onSubmit={handleCreate}>
             <button className="button button2"  >Add New</button>
